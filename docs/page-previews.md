@@ -114,6 +114,8 @@ public static function table(Table $table): Table
 }
 ```
 
+**Note**: `ListPreviewAction` does not support [Builder Previews](./builder-previews.md). 
+
 ## Detecting the Preview Modal
 
 The `EditPost` example above uses a dedicated Blade view to be rendered in the preview modal. It's also possible to use the same view for the site page and the preview modal. In this case, you can detect if the view is being used for a preview by checking for the `$isPeekPreviewModal` variable:
