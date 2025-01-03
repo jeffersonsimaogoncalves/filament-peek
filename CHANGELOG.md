@@ -3,6 +3,12 @@
 All notable changes to `filament-peek` will be documented in this file.
 
 
+## 2.2.11 - 2025-01-03
+
+* enh: Add Turkish translations by @AzizEmir
+* fix: Use FQCN for Arr in Blade views
+
+
 ## 2.2.10 - 2024-10-15
 
 * fix: Remove tailwind utils from plugin.css
@@ -10,7 +16,7 @@ All notable changes to `filament-peek` will be documented in this file.
 
 ## 2.2.9 - 2024-09-04
 
-* enh: Add czech translations by @JarkaP
+* enh: Add Czech translations by @JarkaP
 
 
 ## 2.2.8 - 2024-08-29
