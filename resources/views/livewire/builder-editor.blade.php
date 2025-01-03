@@ -12,7 +12,7 @@
             <x-filament::button
                 color="gray"
                 icon="heroicon-o-arrow-path"
-                class="{{ Arr::toCssClasses([
+                class="{{ \Illuminate\Support\Arr::toCssClasses([
                     'filament-peek-editor-refresh',
                     'filament-peek-editor-icon',
                     'is-icon-active' => $this->shouldAutoRefresh(),
